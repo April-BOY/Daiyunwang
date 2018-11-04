@@ -1,0 +1,32 @@
+/* main */
+/* main carousel */
+#main-carousel .carousel {
+	margin: 20px 0;
+	border: 4px solid #fff;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+}
+
+.product-thumb {
+	overflow: hidden;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+}
+
+.product-thumb .imgage {
+	text-align: center;
+}
+
+/* footer carousel */
+#footer-carousel .carousel-inner>.item {
+	text-align: center;
+}
+
+#footer-carousel .carousel-inner>.item>img {
+	display: inline-block;
+	width: 189px;
+}
+#footer-carousel .carousel-control.left,#footer-carousel .carousel-control.right{
+  background-image: none;
+}
