@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="../node_modules/font-awesome/css/font-awesome.min.css" />
-		<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="./css/header.css" />
-		<link rel="stylesheet" type="text/css" href="./css/login.css" />
-		<link rel="stylesheet" type="text/css" href="./css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="/static/font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="./static/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="./static/css/login.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/footer.css"/>
 		<title>登录</title>
 	</head>
 	<body>
@@ -213,8 +213,8 @@
 											<input id="input-email" class="form-control" type="text" name="email" placeholder="用户名 / 邮箱地址">
 										</div>
 										<div class="form-group">
-											<label class="control-label" for="input-email">密码：</label>
-											<input id="input-email" class="form-control" type="text" name="email" placeholder="密码：">
+											<label class="control-label" for="input-password">密码：</label>
+											<input id="input-password" class="form-control" type="text" name="password" placeholder="密码：">
 											<a href="javascript:;">忘记密码？</a>
 										</div>
 										<div>
@@ -222,7 +222,7 @@
 												<input type="checkbox" name="remember_me" id="" value="1" />保持登入状态（30天）
 											</label>
 										</div>
-										<input class="btn btn-primary" type="submit" value="登录" style="float: left;" />
+										<input class="btn btn-primary" type="button" value="登录" style="float: left;" />
 									</form>
 									<div style="float: left;padding: 0 10px;">
 										<button class="btn btn-primary">
@@ -445,13 +445,14 @@
 				</div>
 			</footer>
 		</div>
-		<script src="../node_modules/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="../node_modules/jquery/dist/scrolltofixed-min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/jquery/dist/jquery.min.js" charset="utf-8"></script>
+		<script src="../static/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../static/jquery/dist/scrolltofixed-min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('#top').scrollToFixed(); // top bar
 			});
 		</script>
+    <script src="./static/js/login.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

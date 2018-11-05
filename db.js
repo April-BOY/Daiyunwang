@@ -1,10 +1,17 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://47.107.47.190:27017/admin');
+mongoose.connect('mongodb://localhost:27017/admin');
 
 let db = {
     "userInfo":{
         username:String,
-        password:String
+        password:String,
+        firstname:String,
+        lastname:String,
+        email:String,
+        telephone:String,
+        fax:String,
+        confirm:String,
+        subscribe:String
     },
     "bookInfo":{
         username:String,

@@ -18,5 +18,11 @@ app.get('/index.html',(req,res)=>{
 app.get('/reg.html',(req,res) => {
   res.render('reg',{});
 });
+app.get('/login.html',(req,res) => {
+  res.render('login',{});
+});
+app.get('/order_tracking.html',(req,res) => {
+  res.render('login',{});
+});
 app.use('/user',require('./user').userRouter);
 app.listen(7777);
